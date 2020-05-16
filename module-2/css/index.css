@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui;
+  }
+  h1 {
+      font-size: 175%;
+    text-align: center;
+    margin-bottom: 33.76px;
+  }
+  #box {
+      position: relative;
+      padding: 0px 10px 0px 10px;
+    border: 2px solid black;
+  }
+  .topic {
+      position : absolute;
+      top : 0px;
+      right: 0px;
+      font-size: 125%;
+      font-weight: 500;
+      padding: 0px 30px 0px 30px; 
+      border: 2px solid black;
+      width : fit-content;
+  }
+  #p1 {
+      background-color: lightpink;
+  }
+  #p2 {
+      color: white;
+      background-color: lightcoral;
+  }
+  #p3 {
+      background-color: lightsalmon;
+  }
+
+  /* Simple Responsive Framework. */
+  .row {
+    width: 100%;
+  }
+  
+  /********** Large devices only **********/
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      float: left;
+      width: 33.33%;
+    }
+    
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;
+    }
+    
+    .col-md-6 {
+      width: 50%;
+    }
+    
+    .col-md-12 {
+        width: 100%;
+        margin-right: 10px;
+    }
+
+  }
+
+  /********** Small devices only **********/
+  @media (max-width: 767px) {
+
+    .col-sm-12 {
+    float: left;
+    width: 100%;
+    }
+    
+  }

@@ -80,6 +80,14 @@ body {
 
 /* END Main Content */
 
+/********** Desktop and Tablet View **********/
+/*
+@media (min-width : 768px) {
+  .navbar-toggle {
+    opacity: 0;
+  }
+}
+
 /********** Mobile View **********/
 @media (max-width: 767px) {
 

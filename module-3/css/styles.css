@@ -64,16 +64,16 @@ body {
 }
 #box h3 {           /* Panipuri */
   width: 100%;
-  padding-top: 16px;
   text-shadow: 1px 1px 1px #222;
 }
 #box {
-  position: relative;
+  /*
   padding: 0px 10px 0px 10px;
   margin: 0px 20px 25px;
-  /*
-  background-color: lightgray;
   */
+  margin: auto;
+    margin-bottom: 25px;
+    padding: 18px;
   color: white;
   background-color: lightcoral;
 }
